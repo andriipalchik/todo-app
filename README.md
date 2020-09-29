@@ -1,6 +1,6 @@
 Task manager
 
-I'm a person who passionate about my own productivity. I want to manage my tasks and projects more effectively. I need a simple tool that supports me in controlling my task flow.
+I'm a person who's passionate about my own productivity. I want to manage my tasks and projects more effectively. I need a simple tool that supports me in controlling my task flow.
 Functional requirements
 
 ★ I want to be able to create/update/delete projects ✔
