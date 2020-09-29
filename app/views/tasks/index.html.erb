@@ -1,0 +1,32 @@
+<div class="container">
+<p id="notice"><%= notice %></p>
+
+<h1 class="headline">Tasks</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Status</th>      
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @tasks.each do |task| %>
+      <tr>
+        <td><%= task.name %></td>
+        <td><%= task.status %></td>
+        <td><%= link_to 'Show', task, :class => "btn btn-success" %></td>
+        <td class="edit"><%= link_to 'Edit', edit_task_path(task), :class => "btn btn-warning" %></td>
+        <td class="destroy"><%= link_to 'Destroy', task, method: :delete, data: { confirm: 'Are you sure?' }, :class => "btn btn-danger" %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Task', new_task_path, :class => "btn btn-primary" %> |
+<%= link_to 'Back', projects_path, :class => "btn btn-info" %>
+</div>

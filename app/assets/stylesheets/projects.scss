@@ -1,0 +1,53 @@
+// Place all the styles related to the Projects controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+.name {
+  color: #ffffff;
+  margin-top: 5px;
+  padding-left: 10px;
+}
+
+.new-project {
+  display: block;
+  margin-left: 720px;
+}
+
+.tasks {
+  margin-left: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.headline {
+  font-family: RotondaC, Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  line-height: 70px;
+  font-size: 60px;
+  text-transform: uppercase;
+}
+
+.border {
+  border-bottom: 1px solid #2b4b62;
+}
+
+.edit {
+  color: #ffffff;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 700px;
+}
+
+.destroy {
+  color: #ffffff;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 20px;
+}
+
+.project {
+  background-color: #007bff;
+  border: 1px solid #2b4b62;
+  font-family: Verdana;
+  color: #ffffff;
+}

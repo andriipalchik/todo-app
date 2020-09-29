@@ -1,0 +1,11 @@
+<div class="container">
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @project.name %>
+</p>
+
+<%= link_to 'Edit', edit_project_path(@project), :class => "btn btn-warning" %> |
+<%= link_to 'Back', projects_path, :class => "btn btn-info" %>
+</div>
