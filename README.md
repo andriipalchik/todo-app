@@ -14,6 +14,7 @@ Functional requirements
 ★ I want to be able to choose deadline for my task ✔
 
 ★ I want to be able to mark a task as 'done' ✔
+
 Technical requirements
 
 ★ It should be a WEB application ✔
