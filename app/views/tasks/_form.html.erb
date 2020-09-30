@@ -20,16 +20,22 @@
     <%= form.label :status %>
     <%= form.check_box :status %>
   </div>
-
+   Please enter the deadline.
   <div class="field">
     <%= form.label :deadline %>
     <%= form.datetime_select :deadline %>
   </div>
-
+  Please enter the NUMBER of the project.
   <div class="field">
     <%= form.label :project_id %>
     <%= form.text_field :project_id %>
   </div>
+
+  Please enter the priority.
+  <div class="field">
+    <%= select(:task, :priority, [['High', 'High'], ['Medium', 'Medium'], ['Low', 'Low']]) %>
+  </div>
+  And finally...
 
   <div class="actions">
     <%= form.submit %>
