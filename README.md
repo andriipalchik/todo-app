@@ -34,6 +34,7 @@ Technical requirements
 ★ It should have automated tests for the all functionality ✘
 
 SQL task
+
 Given tables:
 
 ★ tasks (id, name, status, project_id)
